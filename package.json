@@ -1,0 +1,11 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "The Odin Project Restaurant Page Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "AnthonyHeinrichs",
+  "license": "ISC"
+}
