@@ -1,1 +1,1 @@
-console.log("running");
+(()=>{"use strict";!function(){const e=["Home","Menu","Contact"],o=document.getElementById("content"),t=document.createElement("navbar"),n=o.appendChild(t);for(let o=0;o<e.length;o++){let t=document.createElement("button");t.id=e[o],t.innerText=e[o],t.type="button",n.appendChild(t)}}(),console.log("hello from home"),console.log("hello from contact"),console.log("hello from menu")})();
