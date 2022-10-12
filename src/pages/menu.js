@@ -60,5 +60,5 @@ export default function Menu() {
   const veggieburgerPrice = document.createElement('p')
   veggieburgerPrice.classList.add('burgerPrice')
   div4.appendChild(veggieburgerPrice)
-  veggieburgerPrice.innerText = '€ 7,90'
+  veggieburgerPrice.innerText = '€ 7,40'
 }
