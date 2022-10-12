@@ -3,7 +3,7 @@ export default function Home() {
 
   // Creating img html element and appending to content after navbar
   const img = document.createElement('img')
-  img.src = '../src/assets/marthas.png'
+  img.src = './assets/marthas.png'
   img.alt = `Marthas delicious burgers`
   img.id = 'homeImg'
   content.appendChild(img)

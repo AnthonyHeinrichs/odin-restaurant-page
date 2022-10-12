@@ -9,7 +9,7 @@ export default function Menu() {
 
   // Creating new burger img, title, ingredient description and price
   const cheeseburger = document.createElement('img')
-  cheeseburger.src = '../src/assets/cheeseburger.png'
+  cheeseburger.src = './assets/cheeseburger.png'
   cheeseburger.alt = 'cheeseburger'
   cheeseburger.classList.add('burger')
   div1.appendChild(cheeseburger)
@@ -39,7 +39,7 @@ export default function Menu() {
 
   // Creating new burger img, title, ingredient description and price
   const veggieburger = document.createElement('img')
-  veggieburger.src = '../src/assets/veggieburger.png'
+  veggieburger.src = './assets/veggieburger.png'
   veggieburger.alt = 'veggieburger'
   veggieburger.classList.add('burger')
   div3.appendChild(veggieburger)
