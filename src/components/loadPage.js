@@ -1,5 +1,6 @@
 import Navbar from './navbar'
 import Home from '../pages/home'
+import Footer from './footer'
 
 export default function InitialPageLoad() {
   Navbar()
@@ -12,4 +13,7 @@ export default function InitialPageLoad() {
 
   // initially loading the home page
   Home()
+
+  // adding footer
+  Footer()
 }

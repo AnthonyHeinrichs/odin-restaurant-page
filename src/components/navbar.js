@@ -15,7 +15,7 @@ export default function Navbar() {
   const mainTitle = document.createElement('h2')
   mainTitle.classList.add('mainTitle')
   titleDiv.appendChild(mainTitle)
-  mainTitle.innerText = `Martha's Delicious Burgers`
+  mainTitle.innerText = `Marthas Delicious Burgers`
 
   for( let i = 0; i < tabs.length; i++){
     let btn = document.createElement('button')
