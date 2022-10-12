@@ -1,9 +1,9 @@
-import initialPageLoad from './components/loadPage'
+import InitialPageLoad from './components/loadPage'
 import Home from './pages/home'
 import Contact from './pages/contact'
 import Menu from './pages/menu'
 
-initialPageLoad()
+InitialPageLoad()
 
  // grabbing all buttons for listening
  const homeButton = document.getElementById('Home')

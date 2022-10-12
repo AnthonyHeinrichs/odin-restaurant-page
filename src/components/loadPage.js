@@ -1,7 +1,7 @@
 import Navbar from './navbar'
 import Home from '../pages/home'
 
-export default function initialPageLoad() {
+export default function InitialPageLoad() {
   Navbar()
 
   // creating a div for all content after the navbar

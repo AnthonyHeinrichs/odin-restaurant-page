@@ -8,5 +8,16 @@ export default function Home() {
   img.id = 'homeImg'
   content.appendChild(img)
 
-  
+  const div = document.createElement('div')
+  div.classList.add('statement')
+  content.appendChild(div)
+
+  const p = document.createElement('p')
+  p.classList.add('statementText')
+  div.appendChild(p)
+  let paragraph = "Fresh burger's in the heart of the historic Kreuzberg district."
+  paragraph += " " + "Come try our unique burgers and eat our fresh cut fries."
+  paragraph += " " + "We make our buns in house with lots of love and care."
+  paragraph += " " + "Come down anytime!"
+  p.innerText = paragraph
 }
