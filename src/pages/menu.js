@@ -1,3 +1,6 @@
+import Cheeseburger from '../assets/cheeseburger.png'
+import Veggieburger from '../assets/veggieburger.png'
+
 export default function Menu() {
   // Getting content div to add burgers to page
   const content = document.getElementById('contentAfterNav')
@@ -9,7 +12,7 @@ export default function Menu() {
 
   // Creating new burger img, title, ingredient description and price
   const cheeseburger = document.createElement('img')
-  cheeseburger.src = './assets/cheeseburger.png'
+  cheeseburger.src = Cheeseburger
   cheeseburger.alt = 'cheeseburger'
   cheeseburger.classList.add('burger')
   div1.appendChild(cheeseburger)
@@ -39,7 +42,7 @@ export default function Menu() {
 
   // Creating new burger img, title, ingredient description and price
   const veggieburger = document.createElement('img')
-  veggieburger.src = './assets/veggieburger.png'
+  veggieburger.src = Veggieburger
   veggieburger.alt = 'veggieburger'
   veggieburger.classList.add('burger')
   div3.appendChild(veggieburger)

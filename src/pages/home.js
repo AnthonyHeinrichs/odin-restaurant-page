@@ -1,9 +1,11 @@
+import Marthas from '../assets/marthas.png'
+
 export default function Home() {
   const content = document.getElementById('contentAfterNav')
 
   // Creating img html element and appending to content after navbar
   const img = document.createElement('img')
-  img.src = './assets/marthas.png'
+  img.src = Marthas
   img.alt = `Marthas delicious burgers`
   img.id = 'homeImg'
   content.appendChild(img)
